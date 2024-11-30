@@ -1,0 +1,212 @@
+body{
+    
+}
+
+
+#container{
+     
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(./IN-en-20241111-TRIFECTA-perspective_149877ab-fcbd-4e4f-a885-8d6174a1ee81_large.jpg);;
+    height: 100vh;
+    background-size: cover;
+    padding: 0% 7%;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first h1{
+    width: 200px;
+}
+.first img{
+    width: 100%;
+}
+.first ul{
+    
+    
+}
+li{
+    display: inline-block;
+  margin-right: 15px;
+}
+li select{
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+    font-size: 16px;
+    border-radius: 3px;
+    
+    
+}
+li button{
+    background-color: #e50914;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    padding: 6px 18px;
+}
+
+.input{
+    padding: 20px 120px 14px 7px;
+    background-color: transparent;
+    border:.5px solid #787676;
+    border-radius: 5px;
+}
+.button{
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 11px 30px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.line{
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    border-top: solid 0.25rem #e50914;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-bottom: none;
+    background: radial-gradient(
+        50% 500% at 50% -420%,
+        rgba(64,97,231,0.4)80%,
+        rgba(0,0,0,0.1)100%),black
+}
+#image{
+   
+}
+.main{
+    background-color: #000;
+    padding: 5% 7%;
+    
+     
+}
+
+.main h2{
+    color:#fff;
+    font-size: 25px;
+
+}
+.main select{
+    padding: 8px 15px;
+    margin-right: 15px;
+    padding-top: 10px;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 400;
+}
+.main option{
+    color: #000;
+}
+.about{
+    padding: 0% 7%;
+    background-color: #000;
+}
+.about h2{
+    color: #fff;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+.card{
+    background:linear-gradient(152.34deg,#19143b -1.4%,#2c1920 105.78%);
+    
+    font-size: 16px;
+
+}
+
+.card p{
+    color: #b5b2b2;
+}
+.card h5{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.card img{
+    width: 18%;
+    display: flex;
+    margin-left: 75%;
+    margin-bottom: 20px;
+}
+.last{
+    background-color: #000;
+    padding: 4% 7%;
+   
+    
+}
+.last h2{
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.accordion-flush .accordion-item{
+    background-color: #2d2d2d;
+    color: #fff;
+    border: none;
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding: 2px 0px;
+}
+.accordion-flush .accordion-button{
+    background-color: #2d2d2d;
+    color: #fff;
+    font-size: 25px;
+
+}
+.accordion-flush .accordion-header button{
+    background-color: #2d2d2d;
+}
+.one{
+    background-color: #000;
+    text-align: center;
+}
+.one p{
+    color: #fff;
+}
+form{
+    margin: 0% 25% 0% 25%;
+
+}
+
+.footer{
+    background-color: #000;
+    padding: 2% 7%;
+    color:  #a5a0a0;
+    
+}
+.footer a{
+    color: #a5a0a0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer select{
+    margin-bottom: 30px;
+    padding: 7px 20px;
+    background-color: transparent;
+    color: #fff;
+}
+.footer option{
+    color: #000;
+}
+ @media(max-width:520px) {
+     select{
+        display: none;
+    }
+ }
+ @media(max-width:480px) {
+    li button{
+        padding: 2px 10px;
+    }
+
+ }
+ 
+    
+ 
